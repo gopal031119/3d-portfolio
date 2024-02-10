@@ -29,6 +29,9 @@ import adbiz from "./company/adbiz.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import crowdcomputing from "./crowdComputing.png";
+import crud from "./crud.png";
+import iot from "./iot.jpeg";
 
 export {
   logo,
@@ -59,4 +62,7 @@ export {
   marklogic, 
   spring, 
   sql,
+  crowdcomputing,
+  crud,
+  iot,
 };
