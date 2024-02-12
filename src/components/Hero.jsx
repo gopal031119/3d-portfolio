@@ -7,7 +7,7 @@ import { ComputersCanvas } from "./canvas";
 const Hero = () => {
   const [text, setText] = useState("");
   const fullText =
-    "I develop Web application, user interfaces as a skilled full stack developer.";
+    "Empowering Business Growth as a Full Stack Developer proficient in Spring, SAP Hybris, and Advanced Technologies, driving seamless Web Application Integration and Innovation.";
 
   useEffect(() => {
     let index = 0;
