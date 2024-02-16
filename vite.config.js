@@ -7,4 +7,5 @@ export default defineConfig({
   build: {
     chunkSizeWarningLimit: 10000, // Set to a higher value based on your needs
   },
+  base: process.env.VITE_BASE_PATH || '/',
 })
