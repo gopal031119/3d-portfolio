@@ -1,6 +1,14 @@
 {
   "routes": [
     {
+      "src": "/api/(.*)",
+      "dest": "/src/assert/index.js"
+    },
+    {
+      "src": "^/static/(.*)",
+      "dest": "/client/static/$1"
+    },
+    {
        "src": "/(.*)\\.png",
        "dest": "/client/$1.png"
      },
