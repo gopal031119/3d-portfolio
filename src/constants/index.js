@@ -85,25 +85,12 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "SQL",
-    icon: sql,
-  },
-  {
     name: "MongoDB",
     icon: mongodb,
   },
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
+];
+
+const otherTechnologies = [
   {
     name: "Tailwind CSS",
     icon: tailwind,
@@ -119,6 +106,22 @@ const technologies = [
   {
     name: "Jenkins",
     icon: jenkins,
+  },
+  {
+    name: "SQL",
+    icon: sql,
+  },
+  {
+    name: "HTML 5",
+    icon: html,
+  },
+  {
+    name: "CSS 3",
+    icon: css,
+  },
+  {
+    name: "JavaScript",
+    icon: javascript,
   }
 ];
 
@@ -131,10 +134,10 @@ const experiences = [
     date: "March 2020 - April 2021",
     points: [
       "Contributing to multiple projects as a frontend & backend developer with security expertise.",
-      "Developed various algorithms for the analyzed data that reduce computation and increase overall efficiency by 22%.",
       "Implemented kafka integrate system to reduce load on data base",
-      "Analyzed and developed systems flow, data usage, and work processes by investigating various problems.",
       "Developed & designed various APIs, batch Jobs, databases, and fixed security vulnerabilities for e-commerce applications.",
+      "Analyzed and developed systems flow, data usage, and work processes by investigating various problems.",
+      "Developed various algorithms for the analyzed data that reduce computation and increase overall efficiency by 22%.",
       "Planned, Tracked, and managed deliverables on short-term sprints and long-term software developments."
     ],
   },
@@ -146,6 +149,7 @@ const experiences = [
     date: "Jan 2021 - Feb 2022",
     points: [
       "Learned about Java, Linux, Cloud - AWS, Azure, Critical Analysis, emotional intelligence, logical thinking, ethics, and management.",
+      "Developed Movie Management System project with responsive web design."
     ],
   },
   {
@@ -250,4 +254,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, otherTechnologies, experiences, testimonials, projects };
