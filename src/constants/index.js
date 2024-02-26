@@ -122,6 +122,41 @@ const technologies = [
   // }
 ];
 
+const otherTechnologies = [
+  {
+    name: "SQL",
+    icon: sql,
+  },
+  {
+    name: "HTML 5",
+    icon: html,
+  },
+  {
+    name: "CSS 3",
+    icon: css,
+  },
+  {
+    name: "JavaScript",
+    icon: javascript,
+  },
+  {
+    name: "Tailwind CSS",
+    icon: tailwind,
+  },
+  {
+    name: "Three JS",
+    icon: threejs,
+  },
+  {
+    name: "docker",
+    icon: docker,
+  },
+  {
+    name: "Jenkins",
+    icon: jenkins,
+  }
+];
+
 const experiences = [
   {
     title: "Full Stack Developer",
@@ -250,4 +285,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, otherTechnologies, experiences, testimonials, projects };
