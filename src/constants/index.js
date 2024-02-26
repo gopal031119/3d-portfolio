@@ -84,42 +84,42 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
-  {
-    name: "SQL",
-    icon: sql,
-  },
+  // {
+  //   name: "SQL",
+  //   icon: sql,
+  // },
   {
     name: "MongoDB",
     icon: mongodb,
   },
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
-  {
-    name: "Jenkins",
-    icon: jenkins,
-  }
+  // {
+  //   name: "HTML 5",
+  //   icon: html,
+  // },
+  // {
+  //   name: "CSS 3",
+  //   icon: css,
+  // },
+  // {
+  //   name: "JavaScript",
+  //   icon: javascript,
+  // },
+  // {
+  //   name: "Tailwind CSS",
+  //   icon: tailwind,
+  // },
+  // {
+  //   name: "Three JS",
+  //   icon: threejs,
+  // },
+  // {
+  //   name: "docker",
+  //   icon: docker,
+  // },
+  // {
+  //   name: "Jenkins",
+  //   icon: jenkins,
+  // }
 ];
 
 const experiences = [
