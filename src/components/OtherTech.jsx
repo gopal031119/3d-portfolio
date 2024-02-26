@@ -8,7 +8,7 @@ const OtherTech = () => {
   return (
     <div className='flex flex-col items-center gap-10'>
       <div className='w-full bg-black-100 p-8 rounded-2xl text-center'>
-        <h3 className='text-white font-bold text-2xl mb-4'>Other Skills</h3>
+        <h3 className='text-white font-bold text-2xl mb-4'>Other Tech Skills</h3>
       </div>
       <div className='flex flex-row flex-wrap justify-center gap-10'>
         {otherTechnologies.map((technology) => (

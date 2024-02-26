@@ -21,7 +21,7 @@ import spring from "./tech/spring.png";
 import sql from "./tech/sql.png";
 import reactjs from "./tech/reactjs.png";
 import tailwind from "./tech/tailwind.png";
-import threejs from "./tech/threejs.svg";
+import threejs from "./tech/threejs.png";
 
 import einfochips from "./company/einfochips.png";
 import adbiz from "./company/adbiz.png";

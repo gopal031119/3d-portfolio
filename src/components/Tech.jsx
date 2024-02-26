@@ -8,7 +8,7 @@ const Tech = () => {
   return (
     <div className='flex flex-col items-center gap-10 text-center'>
       <div className='w-full bg-black-100 p-8 rounded-2xl'>
-        <h3 className='text-white font-bold text-2xl mb-4'>My Expertise</h3>
+        <h3 className='text-white font-bold text-2xl mb-4'>Technical Expertise</h3>
         {/* Add your expertise-related content here */}
       </div>
       <div className='flex flex-row flex-wrap justify-center gap-10'>
