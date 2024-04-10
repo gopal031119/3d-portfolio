@@ -15,7 +15,7 @@ import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import sapHybris from "./tech/sapHybris.png";
 import jenkins from "./tech/jenkins.png";
-import kafka from "./tech/kafka.png";
+import kafka from "./tech/kafka.jpg";
 import marklogic from "./tech//marklogic.png";
 import spring from "./tech/spring.png";
 import sql from "./tech/sql.png";
