@@ -15,7 +15,7 @@ import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import sapHybris from "./tech/sapHybris.png";
 import jenkins from "./tech/jenkins.png";
-import kafka from "./tech/kafka.png";
+import kafka from "./tech/kafka.jpg";
 import marklogic from "./tech//marklogic.png";
 import spring from "./tech/spring.png";
 import sql from "./tech/sql.png";
@@ -32,6 +32,8 @@ import tripguide from "./tripguide.png";
 import crowdcomputing from "./crowdComputing.png";
 import crud from "./crud.png";
 import iot from "./iot.jpeg";
+import EMS from "./EMS.gif";
+import smartdustbin from "./smartdustbin.png"
 
 export {
   logo,
@@ -65,4 +67,6 @@ export {
   crowdcomputing,
   crud,
   iot,
+  EMS,
+  smartdustbin
 };

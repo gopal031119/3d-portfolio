@@ -5,38 +5,45 @@ import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 
 const Hero = () => {
+  const [roleIndex, setRoleIndex] = useState(0);
+  const roles = [    "Full Stack Developer |",
+  "SAP Hybris Expert |",
+  "Blogger & Influencer |",];
+
   const [text, setText] = useState("");
-  const fullText =
-    "Empowering Business Growth as a Full Stack Developer proficient in Spring, SAP Hybris, and Advanced Technologies, driving seamless Web Application Integration and Innovation.";
+  const fullText = roles[roleIndex];
 
   useEffect(() => {
     let index = 0;
-
     const intervalId = setInterval(() => {
       setText(fullText.slice(0, index));
       index++;
 
       if (index > fullText.length) {
         clearInterval(intervalId);
+        // Move to the next role after a brief delay
+        setTimeout(() => {
+          setRoleIndex((prevIndex) => (prevIndex + 1) % roles.length);
+        }, 1000);
       }
     }, 50);
 
     return () => clearInterval(intervalId);
-  }, []);
+  }, [roleIndex]); // Run effect whenever roleIndex changes
 
   return (
     <section className={`relative w-full h-screen mx-auto`}>
       <div
         className={`absolute inset-0 top-[120px] max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
       >
-        <div className='flex flex-col justify-center items-center mt-5'>
-          <div className='w-5 h-5 rounded-full bg-[#915EFF]' />
-          <div className='w-1 sm:h-80 h-40 violet-gradient' />
+        <div className="flex flex-col justify-center items-center mt-5">
+          <div className="w-5 h-5 rounded-full bg-[#915EFF]" />
+          <div className="w-1 sm:h-80 h-40 violet-gradient" />
         </div>
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className='text-[#915EFF]'>Gopal Sakhwala</span>
+            Hi, I'm <span className="text-[#915EFF]">Gopal Sakhwala</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             {text}
@@ -46,9 +53,9 @@ const Hero = () => {
 
       <ComputersCanvas />
 
-      <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
-        <a href='#about'>
-          <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
+      <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
+        <a href="#about">
+          <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
             <motion.div
               animate={{
                 y: [0, 24, 0],
@@ -58,7 +65,7 @@ const Hero = () => {
                 repeat: Infinity,
                 repeatType: "loop",
               }}
-              className='w-3 h-3 rounded-full bg-secondary mb-1'
+              className="w-3 h-3 rounded-full bg-secondary mb-1"
             />
           </div>
         </a>
