@@ -27,6 +27,8 @@ import {
   crowdcomputing,
   crud,
   iot,
+  EMS,
+  smartdustbin,
 } from "../assets";
 
 export const navLinks = [
@@ -232,7 +234,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: crud,
+    image: EMS,
     source_code_link: "https://github.com/gopal031119/employee-crud-using-jwt",
   },
   {
@@ -249,7 +251,7 @@ const projects = [
         color: "green-text-gradient",
       },
     ],
-    image: iot,
+    image: smartdustbin,
     source_code_link: "https://github.com/gopal031119/IOT-Based-Smart-Dustbin-Wet-Dry-separator",
   },
 ];
