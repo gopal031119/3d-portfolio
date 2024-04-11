@@ -32,6 +32,8 @@ import tripguide from "./tripguide.png";
 import crowdcomputing from "./crowdComputing.png";
 import crud from "./crud.png";
 import iot from "./iot.jpeg";
+import EMS from "./EMS.gif";
+import smartdustbin from "./smartdustbin.png"
 
 export {
   logo,
@@ -65,4 +67,6 @@ export {
   crowdcomputing,
   crud,
   iot,
+  EMS,
+  smartdustbin
 };
