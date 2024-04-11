@@ -57,6 +57,8 @@ const ExperienceCard = ({ experience }) => {
 };
 
 const Experience = () => {
+  const isMobile = window.innerWidth <= 768; // Define your mobile breakpoint here
+
   return (
     <>
       <motion.div variants={textVariant()}>
@@ -69,14 +71,25 @@ const Experience = () => {
       </motion.div>
 
       <div className='mt-20 flex flex-col'>
-        <VerticalTimeline>
-          {experiences.map((experience, index) => (
-            <ExperienceCard
-              key={`experience-${index}`}
-              experience={experience}
-            />
-          ))}
-        </VerticalTimeline>
+        {isMobile ? (
+          <VerticalTimeline animate={false}>
+            {experiences.map((experience, index) => (
+              <ExperienceCard
+                key={`experience-${index}`}
+                experience={experience}
+              />
+            ))}
+          </VerticalTimeline>
+        ) : (
+          <VerticalTimeline>
+            {experiences.map((experience, index) => (
+              <ExperienceCard
+                key={`experience-${index}`}
+                experience={experience}
+              />
+            ))}
+          </VerticalTimeline>
+        )}
       </div>
     </>
   );
