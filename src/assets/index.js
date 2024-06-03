@@ -34,6 +34,7 @@ import crud from "./crud.png";
 import iot from "./iot.jpeg";
 import EMS from "./EMS.gif";
 import smartdustbin from "./smartdustbin.png"
+import sportcenter from "./sportcenter.png"
 
 export {
   logo,
@@ -68,5 +69,6 @@ export {
   crud,
   iot,
   EMS,
-  smartdustbin
+  smartdustbin,
+  sportcenter
 };

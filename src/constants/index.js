@@ -25,6 +25,7 @@ import {
   spring, 
   sql,
   crowdcomputing,
+  sportcenter,
   crud,
   iot,
   EMS,
@@ -195,6 +196,26 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "Ecommerce Web Using React and SpringBoot",
+    description:"Ecommerce web application built using React for the frontend and Spring Boot for the backend. It is designed to serve as an online platform for a sports center, facilitating the purchase of various sports-related products.",
+    tags: [
+      {
+        name: "Springboot/ Redis / Docker / MySQL",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "React/ Vite / TypeScript / MaterialUI",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Java21",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: sportcenter,
+    source_code_link: "https://github.com/gopal031119/Ecommerce-web-using-react-and-springboot",
+  },
   {
     name: "Crowd Computing Using CNN",
     description:
